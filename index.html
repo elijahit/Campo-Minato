@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Campo Sfida Pokemon</title>
+  <link rel="icon" type="image/x-icon" href="/images/logo.png">
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@700&family=Press+Start+2P&display=swap"
+    rel="stylesheet">
+
+  <!-- Foglio di stile -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="game-container">
+    <!-- Pannello informazioni di gioco -->
+    <div class="game-panel">
+      <h1>- Campo (vs) Pokemon -</h1>
+
+      <!-- Punteggio -->
+      <div class="score">
+        <span class="score-label">SCORE</span>
+        <span class="score-counter">00000</span>
+      </div>
+    </div>
+
+    <!-- Tabellone di gioco -->
+    <div class="game-board">
+      <div class="grid"></div>
+
+      <!-- Schermata di fine gioco -->
+      <div class="end-game-screen hidden">
+        <h2 class="end-game-text">Game<br>Over</h2>
+        <button class="play-again">Gioca ancora</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <p>Autore: Tosto Gabriele Mario (Elijah)<br /><br /></p>
+      <p><a href="https://boolean.careers/"><img src='/images/logo.png' style="width: 16px; height: 16px;"> Challenge
+          Boolean Coding Week</a></p>
+    </div>
+  </footer>
+  <!-- Javascript -->
+  <script type="text/Javascript" src="script.js"></script>
+</body>
+
+
+</html>
