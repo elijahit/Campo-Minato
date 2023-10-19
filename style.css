@@ -23,7 +23,7 @@ body {
 	background-color: rgb(216, 238, 232);
 	font-family: 'Darker Grotesque', sans-serif;
 	background-image: url('/images/background.jpg');
-	background-size: contain;
+	background-size: auto;
 }
 
 .game-container {
